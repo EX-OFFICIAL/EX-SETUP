@@ -5,7 +5,6 @@ try:
 except:
     os.system('pip install requests')
 os.system('xdg-open https://facebook.com/groups/darkforce71officials/')
-time.sleep(2)
 os.system("git pull")
 
 bit = platform.architecture()[0]
